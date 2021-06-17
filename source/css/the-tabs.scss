@@ -1,0 +1,25 @@
+.the-tabs {
+  // max-width: var(--page-width);
+  display: flex;
+  flex-flow: row wrap;
+  // background: hsl(var(--tahoe-yellow-hs), calc(var(--tahoe-yellow-l) - 5%));
+  background: var(--tahoe-white);
+  padding: 1.5rem;
+  margin-inline: auto;
+  max-width: var(--page-width);
+  gap: 1rem;
+}
+
+.the-tabs > * {
+  flex: 1 1 16rem;
+
+  > img {
+    aspect-ratio: 16 / 9;
+  }
+
+  > h3 {
+    background: var(--tahoe-blue);
+    color: var(--tahoe-white);
+    padding: 0.5rem 1rem;
+  }
+}

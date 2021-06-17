@@ -1,12 +1,87 @@
 {
   "items": [
     {
-      "name": "$color-brand-blue",
-      "value": "#0000ff",
-      "comment": ""
+      "name": "--tahoe-blue",
+      "value": "#007b9ae6",
+      "comment": "header background"
+    },
+    {
+      "name": "--tahoe-blue-2",
+      "value": "#0051e8",
+      "comment": "triple color"
+    },
+    {
+      "name": "--tahoe-blue-3",
+      "value": "#003D4D",
+      "comment": "footer background, some title text"
+    },
+    {
+      "name": "--tahoe-blue-4",
+      "value": "#0078c1",
+      "comment": "signup button"
+    },
+    {
+      "name": "--tahoe-blue-5",
+      "value": "#77D7EF",
+      "comment": "les email"
+    },
+    {
+      "name": "--tahoe-yellow",
+      "value": "#ffd000",
+      "comment": "header h1 text, used as a highlight color"
+    },
+    {
+      "name": "--tahoe-yellow-2",
+      "value": "#FFEFAA",
+      "comment": "body background"
+    },
+    {
+      "name": "--tahoe-red",
+      "value": "#e21c21",
+      "comment": "bold text color"
+    },
+    {
+      "name": "--tahoe-pink",
+      "value": "#ed1566",
+      "comment": "trifecta color"
+    },
+    {
+      "name": "--tahoe-pink-2",
+      "value": "#f5463b",
+      "comment": "required color"
+    },
+    {
+      "name": "--tahoe-green",
+      "value": "#89bf24",
+      "comment": "come run with us background"
+    },
+    {
+      "name": "--tahoe-green-2",
+      "value": "#5b7f18",
+      "comment": "triple record winning"
+    },
+    {
+      "name": "--tahoe-black",
+      "value": "#000000",
+      "comment": "some text"
+    },
+    {
+      "name": "--tahoe-gray",
+      "value": "#cfcfcf",
+      "comment": "home background"
+    },
+    {
+      "name": "--tahoe-gray-2",
+      "value": "#606060",
+      "comment": "text color"
+    },
+    {
+      "name": "--tahoe-white",
+      "value": "#FFFFFE",
+      "comment": "header text"
     }
   ],
   "meta": {
-    "description": "To add to these items, use Sass variables that start with <code>$color-brand-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+    "description": "I'm just grabbing what and where I can to figure this out"
   }
 }

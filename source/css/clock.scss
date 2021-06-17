@@ -1,0 +1,33 @@
+.clock {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  margin-block-end: 1.5rem;
+  max-width: (var(--measure));
+  margin-inline: auto;
+  text-align: center;
+}
+
+.clock span {
+  background: hsla(0, 0%, 20%, 0.8);
+  color: var(--tahoe-yellow);
+}
+
+.clock__numbers {
+  font-size: 1.953rem;
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.clock__date {
+  padding: 0.25rem 0.5rem;
+}
+
+.clock__date--first {
+  margin-inline-start: 0.5rem;
+}
+
+.clock__date--last {
+  margin-inline-end: 0.5rem;
+}

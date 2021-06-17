@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "name": "--anton",
+      "value": "\"anton\", sans-serif",
+      "comment": ""
+    },
+    {
+      "name": "--basic",
+      "value": "\"basic\", sans-serif",
+      "comment": "secondary headers?"
+    },
+    {
+      "name": "--play",
+      "value": "\"play\", sans-serif",
+      "comment": "footer text"
+    },
+    {
+      "name": "body",
+      "value": "helvetica, sans-serif",
+      "comment": "probably drop this back down to helvetica"
+    }
+  ],
+  "meta": {
+    "description": "I dont think this is the whole list its just what I've found"
+  }
+}

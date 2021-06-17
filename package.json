@@ -19,5 +19,8 @@
     "@pattern-lab/core": "^5.14.3",
     "@pattern-lab/engine-handlebars": "^5.14.3",
     "@pattern-lab/uikit-workshop": "^5.14.3"
+  },
+  "devDependencies": {
+    "prettier": "2.3.1"
   }
 }

@@ -1,0 +1,105 @@
+header {
+  background: #007b9ae6; /* variable this */
+  color: var(--tahoe-white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+header a {
+  color: var(--tahoe-white);
+}
+
+header a:hover {
+  color: hsl(var(--tahoe-white-hs), calc(var(--tahoe-white-l) - 10%));
+}
+
+header nav ul {
+  margin-block: 0;
+}
+
+header .more > li {
+  border-color: var(--tahoe-white);
+}
+
+header button {
+  background: var(--tahoe-yellow);
+  color: black;
+  width: max-content; // this is a pattern lab check if it should be everywhere
+  margin-inline: auto;
+}
+
+header button:hover {
+  background: hsl(var(--tahoe-yellow-hs), calc(var(--tahoe-yellow-l) - 10%));
+}
+
+.title {
+  margin-block-start: 3rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "anton", sans-serif;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.title h1 {
+  order: 2;
+
+  a {
+    color: var(--tahoe-yellow);
+  }
+}
+
+.title :is(h1, h2, h3, h4, h5, h6) {
+  margin-block-end: 0.5rem;
+}
+
+.title > .top {
+  order: 1;
+}
+
+.title > .bottom {
+  order: 3;
+}
+
+
+nav > ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+nav > ul > li {
+  list-style: none;
+  font-size: 1.25rem; /* h5 */
+}
+
+.more {
+  margin-block-end: 0;
+}
+
+.more > li {
+  border-right: 1px solid black;
+  font-size: 1rem; /* p */
+}
+
+.more > li:last-child {
+  border-right: none;
+}
+
+.header-as-is {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: var(--page-width);
+  margin-inline: auto;
+  justify-content: space-between;
+  gap: 1rem;
+}
