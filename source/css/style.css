@@ -126,6 +126,12 @@ iframe {
   align-self: end;
   justify-self: end;
   margin-block-end: 1rem;
+  font-size: 1.25rem;
+}
+@media (min-width: 30rem) {
+  .hero > h2 {
+    font-size: 2.441rem;
+  }
 }
 
 img {
@@ -268,6 +274,7 @@ header nav ul {
   margin-block: 0;
   max-width: var(--page-width);
   margin-inline: auto;
+  padding-left: 0;
 }
 
 header .more > li {
@@ -290,10 +297,15 @@ header button:hover {
 }
 
 .title a {
-  margin-block-start: 3rem;
   display: flex;
   flex-direction: column;
   font-family: "anton", sans-serif;
+  margin-block-start: 1rem;
+}
+@media (min-width: 30rem) {
+  .title a {
+    margin-block-start: 2rem;
+  }
 }
 
 .title a {
@@ -309,6 +321,11 @@ header button:hover {
 
 .title h1 {
   order: 2;
+}
+@media (max-width: 30rem) {
+  .title h1 {
+    font-size: 1.953rem;
+  }
 }
 .title h1 a {
   color: var(--tahoe-yellow);
@@ -347,8 +364,8 @@ nav > ul {
 
 nav > ul > li {
   list-style: none;
-  font-size: 1rem;
-  /* h5 */
+  font-size: 0.9rem;
+  /* fit on a line */
 }
 
 .more {
@@ -387,6 +404,17 @@ nav > ul > li {
 
 .nav__highlight:hover {
   background: hsl(var(--tahoe-yellow-hs), calc(var(--tahoe-yellow-l) - 10%));
+}
+
+.more--slim {
+  background: var(--tahoe-white);
+  max-width: 100vw;
+}
+.more--slim li {
+  font-size: 0.8rem;
+}
+.more--slim li a {
+  color: black;
 }
 
 .the-tabs {
