@@ -45,9 +45,6 @@ small, .text_small {font-size: 0.8rem;}
 
 /* end of type scale */
 
-@import "clock";
-@import "header";
-@import "the-tabs";
 
 body {
   background: hsl(var(--tahoe-white-hs), calc(var(--tahoe-white-l) - 15%));
@@ -59,7 +56,7 @@ body {
 a {
   color: black;
   margin: 0.25rem 0.5rem;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.25rem 0 0.25rem;
   display: inline-block;
 }
 
@@ -212,3 +209,7 @@ footer {
     background: white; /* purpose true white */
   }
 }
+
+@import "clock";
+@import "header";
+@import "the-tabs";

@@ -3,8 +3,8 @@
   grid-template-rows: 2fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 1rem;
-  margin-block-end: 1.5rem;
-  max-width: (var(--measure));
+  margin-block: 1.5rem;
+  max-width: calc((var(--measure)) / 2);
   margin-inline: auto;
   text-align: center;
 }
