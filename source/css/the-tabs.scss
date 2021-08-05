@@ -13,7 +13,8 @@
 .the-tabs > * {
   flex: 1 1 16rem;
 
-  > img {
+  // needs to be more specific
+  > .sixteen-nine {
     aspect-ratio: 16 / 9;
   }
 

@@ -407,7 +407,7 @@ nav > ul > li {
 }
 
 .more--slim {
-  background: var(--tahoe-white);
+  background: #f2f2f2;
   max-width: 100vw;
 }
 .more--slim li {
@@ -430,13 +430,40 @@ nav > ul > li {
 .the-tabs > * {
   flex: 1 1 16rem;
 }
-.the-tabs > * > img {
+.the-tabs > * > .sixteen-nine {
   aspect-ratio: 16/9;
 }
 .the-tabs > * > h3 {
   background: var(--tahoe-blue);
   color: var(--tahoe-white);
   padding: 0.5rem 1rem;
+}
+
+.page {
+  background: var(--tahoe-white);
+  padding: 1.5rem;
+  margin-inline: auto;
+  max-width: var(--page-width);
+  display: flex;
+  flex-flow: row wrap;
+  grid-gap: 2rem;
+}
+.page > * {
+  flex: 1 1 30rem;
+}
+.page section {
+  max-width: var(--measure);
+}
+.page img {
+  object-fit: cover;
+}
+
+.listed li {
+  border-bottom: 1px solid lightgray;
+}
+
+.listed li:lastchild {
+  border-bottom: none;
 }
 
 /*# sourceMappingURL=style.css.map */

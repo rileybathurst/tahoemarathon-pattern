@@ -218,3 +218,36 @@ footer {
 @import "clock";
 @import "header";
 @import "the-tabs";
+
+.page {
+  background: var(--tahoe-white);
+  padding: 1.5rem;
+  margin-inline: auto;
+  max-width: var(--page-width);
+  display: flex;
+  flex-flow: row wrap;
+  grid-gap: 2rem;
+
+  > * {
+    flex: 1 1 30rem;
+  }
+
+  section {
+    max-width: var(--measure);
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.listed {
+  li {
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+// not working yet
+.listed li:lastchild {
+  border-bottom: none;
+}
