@@ -439,6 +439,18 @@ nav > ul > li {
   padding: 0.5rem 1rem;
 }
 
+table {
+  background: whitesmoke;
+}
+table tr {
+  display: grid;
+  gap: 1rem;
+}
+table td {
+  background: palevioletred;
+  border: 1px solid var(--tahoe-blue);
+}
+
 .page {
   background: var(--tahoe-white);
   padding: 1.5rem;

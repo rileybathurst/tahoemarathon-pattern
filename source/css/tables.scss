@@ -1,0 +1,13 @@
+table {
+  background: whitesmoke;
+
+  tr {
+    display: grid;
+    gap: 1rem;
+  }
+
+  td {
+    background: palevioletred;
+    border: 1px solid var(--tahoe-blue);
+  }
+}
