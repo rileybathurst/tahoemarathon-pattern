@@ -1,0 +1,64 @@
+menu {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 0;
+    }
+  }
+
+  svg {
+    vertical-align: bottom;
+  }
+}
+
+.nav__races {
+  background: black;
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  svg {
+    fill: white;
+  }
+
+  > ul > li {
+    background: #141414;
+  }
+}
+
+.nav__menu {
+  background: #F2F2F2;
+
+  > ul {
+    background: #D9D9D9;
+  }
+
+  .nav__secondary {
+    background: #C1C1C1;
+    margin-inline: auto;
+    width: max-content;
+    padding-inline: 1rem;
+
+    a {
+      margin: 0;
+    }
+  }
+}
+
+.nav__registration {
+  background: var(--tahoe-yellow);
+
+  > ul {
+    background: #EBCD71;
+  }
+}

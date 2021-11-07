@@ -1,0 +1,15 @@
+.timeline {
+  main {
+    background: white;
+  }
+
+  form {
+    display: flex;
+
+    flex-flow: row wrap;
+
+    select {
+      max-width: 20rem;
+    }
+  }
+}

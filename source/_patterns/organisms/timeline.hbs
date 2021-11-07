@@ -1,64 +1,133 @@
-<main id="timeline" class="">
+<main id="timeline" class="timeline">
   <h1>2021 Time Line</h1>
-
-  <!-- sections and articles css etc -->
-  <section>
-    <h2>Week Day Month Date</h2>
-
-    <article>
-      <h3>Title</h3>
-      <time>Timing</time><!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time -->
-      <p>Description</p>
-      <p><a href="">Link</a></p><!-- can I make these buttons? -->
-    </article>
-
-  </section>
-
-  <section>
-    <h2>Saturday October 30</h2>
-
-    <article>
-      <h3>Bus to Sand Harbor for Cal Neva Marathon</h3>
-    </article>
-  </section>
-
-  <section>
-    <h2>Sunday - Halloween Day, October 31</h2>
-
-    <article>
-      <h3>Lake Tahoe Double Marathon</h3>
-      <p>Custom Start Times</p>
-      <p>Start outside Sand Harbor entrance at your custom time. Time your start
-        to be at the LT Marathon start time to take advantage of those aid
-        stations.</p>
-      <p><a href="https://www.laketahoemarathon.com/double">Double Marathon</a></p>
-    </article>
-
-  </section>
-
-
-
 
   <!-- tables. a little more old schoold but with all the css I can probably make it nice -->
     <section>
-    <h2>Week Day Month Date</h2>
+    {{!-- <h2>Week Day Month Date</h2> --}}
 
+    <form class="">
+      <label for="race">Choose a race:</label>
+      <select id="race">
+        <option>Nevada Half</option>
+        <option>Carnelian Bay Half</option>
+        <option>Emerald Bay Half</option>
+        <option>Tahoe Trifecta</option>
+      </select>
+
+      <label for="days">Choose a day:</label>
+      <select id="days">
+        <option>All</option>
+        <option>Saturday October 30</option>
+        <option>Sunday October 31</option>
+      </select>
+    </form>
+
+    {{!-- <h3>Selected</h3> --}}
+    {{!-- <p>Note these buttons do not currently work due to development times</p> --}}
+    <button>Cal Neva Marathon | <span>x</span></button>
+    <button>Sunday October 31 | <span>x</span></button>
+
+    <hr />
+
+    <h3>Sunday - Halloween Day, October 31</h3>
     <table>
-      <thead>
+      {{!-- <thead>
         <tr>
           <td><time>Timing</time><!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time --></td>
           <td><h3>Title</h3></td>
           <td><p>Description</p></td>
           <td><p><a href="">Link</a></p><!-- can I make these buttons? --></td>
         </tr>
-      </thead>
+      </thead> --}}
       <tbody>
         <tr>
-          <td><time>Custom Start Times</time></td>
-          <td><h3>Lake Tahoe Double Marathon</h3></td>
-          <td><p>Start outside Sand Harbor entrance at your custom time. Time your start to be at the LT Marathon start time to take advantage of those aid stations.</p></td>
-          <td><p><a href="https://www.laketahoemarathon.com/double">Double Marathon</a></p></td>
+          <td class="time"><time>Custom Start Times</time></td>
+          <td>
+            <h3>Lake Tahoe Double Marathon</h3>
+            <p>Start outside Sand Harbor entrance at your custom time. Time your start to be at the LT Marathon start time to take advantage of those aid stations.</p>
+            <p><a href="https://www.laketahoemarathon.com/double">Double Marathon</a></p>
+          </td>
         </tr>
+
+        <tr>
+          <td class="time"><time>Last bus at 7:30AM</time></td>
+          <td>
+            <h3>Buses  to Homewood Marathon start at Meadow Rd &amp; H89, Homewood</h3>
+            <p>Take the first bus if you need to start early. Early starters may start when ready by crossing over the starting mat as early as 7:30AM. No age division awards for early starters.</p>
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="time"><time>8AM - 1PM</time></td>
+          <td>
+            <h3>Road Closes</h3>
+            <p>The road closes near Spring Creek Road. South bound traffic is open except between 11 am and noon  for the start of the Emerald Bay Half Marathon.</p>
+            <p><a href="#">Road Delays</a></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>9:00 start</time></td>
+          <td>
+            <h3>Start of the Lake Tahoe Marathon at H89 &amp; Meadow Road south of Homewood</h3>
+            <p>Slower runners may start as soon as they get off the bus by by checking in and then crossing the start line timing mat. Those who want to win the race or win an age division award must start with the other competitors at 9AM.</p>
+            <p><a href="#">Lake Tahoe Marathon</a></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>9:35 start</time></td>
+          <td>
+            <h3>The Edgewood Tahoe 10K</h3>
+            <p>Start at Lakeside Beach and run into and thru Edgewood Golf Course. Then out onto Rabb Meadow towards Nevada Beach and back via the loop road.</p>
+            <p><a href="#">Tahoe 10K</a></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>9:44 AM</time></td>
+          <td>
+            <h3>One Minute Head start for 5K or 10K runners in costume</h3>
+            <p>Start one minute early if you are in body costume.</p>
+            <p><a href="#">Tahoe 10K</a></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>9:45 start</time></td>
+          <td>
+            <h3>The Super Hero 5K Pumpkin Run</h3>
+            <p>All the party poopers without costume start now.</p>
+            <p><a href="#">Superhero 5K</a></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>9:50AM - 10:30AM</time></td>
+          <td>
+            <h3>Buses to Emerald Bay Half Marathon Startline</h3>
+            <p>Don't miss the bus. Great views at Inspiration Point while you wait for the bag piper to lead you out on to the Knives Edge for the start of the Emerald Bay Half.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>11AM</time></td>
+          <td>
+            <h3>Optimist Kids Fun Run’s at the Finish Line area at Lakeside Beach</h3>
+            <p>Kids 1-10 run for pumpkins and fun in their Halloween Costume. This event is free thanks to the South Lake Tahoe Optimist and the LTM.</p>
+            <p><a href="#">Kids</a></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="time"><time>11:30AM</time></td>
+          <td>
+            <h3>Start of the Emerald Bay Half Marathon</h3>
+            <p>Wait for the Bag Piper to lead you to the start line.</p>
+            <p><a href="#">Tahoe 10K</a></p>
+          </td>
+        </tr>
+
       </tbody>
     </table>
 
